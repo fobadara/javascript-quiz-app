@@ -9,17 +9,27 @@
 </head>
 <body>
     <!-- home page -->
-    <header>
+    <header class="flex-row flex-column">
         <h1 class="heading">JavaScript Test Quiz</h1>
     </header>
 
-    <div>
-        Intro text
+    <div class="container">
+        <main>
+            <div id="home-page">
+                <div class="intro-text">
+                  The quiz is to test your knowledge on JavaScript. The test contains 10 questions and there is no time limit. 
+                  You will get 10 points for each correct answer.
+                  At the end of the quiz, your total score will be displayed. The maximum score is 100 points.
+                  Click on the heading, <strong>JavaScript Test Quiz</strong> to always return to home page. 
+                </div>
+                <div class="flex-column flex-center">
+                  <a class="btn" href="/game.html">Start the Quiz</a>
+                  <a class="btn" href="/highscores.html">High Scores</a>
+                </div>
+              </div>
+        </main>
     </div>
 
-    <div>
-        Start the quiz / High scores
-    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
