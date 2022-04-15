@@ -98,7 +98,6 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
     setNextQuestion();
 };
 
@@ -129,8 +128,15 @@ choices.forEach(choice => {
     acceptingAnswers = false;
     const selectedChoice = e.target;
     const selectedAnswer = selectedChoice.dataset["number"];
-    console.log(selectedAnswer);
-    setNextQuestion();
+
+    const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+    
+    selectedChoice.parentElement.classList.add(classToApply);
+
+    setTimeout(() => {
+      selectedChoice.parentElement.classList.remove(classToApply);
+      setNextQuestion();
+    }, 1000);
   });
 });
 
