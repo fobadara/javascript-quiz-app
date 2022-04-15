@@ -50,3 +50,24 @@
     rgb(224, 11, 11, 1) 100%
   );
 }
+
+/* Heads up Display */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.hud-item {
+  font-size: 1.75rem;
+  padding: 0.75rem;
+}
+
+.hud-prefix {
+  text-align: center;
+}
+
+.hud-main-text {
+  text-align: center;
+}
