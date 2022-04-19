@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/end.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>End Page</title>
 </head>
@@ -14,8 +15,8 @@
             <h1 id="finalScore">0</h1>
             <form>
                 <h2>Enter your name below to save your score!</h2>
-                <input type="text" name="username" id="username" required placeholder="Enter your name">
-                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">Submit</button>
+                <input type="text" name="username" id="username" required placeholder="username">
+                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Submit</button>
               </form>
               <a class="btn" href="/play.html">Play Again</a>
               <a class="btn" href="/">Go Home</a>
