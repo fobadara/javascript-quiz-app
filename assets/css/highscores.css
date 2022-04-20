@@ -1,0 +1,17 @@
+#highScoresList {
+    list-style: none;
+    margin: 3rem;
+}
+
+.high-score {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.high-score:hover {
+    transform: scale(1.025);
+}
+
+#finalScore {
+    margin-top: 5rem;
+}
