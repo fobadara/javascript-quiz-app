@@ -3,56 +3,41 @@
 
 /* general stylings */
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-family: "Cardo", serif;
-    color: #333;
-  }
-  
-  body {
-    background-color: #fff;
-    padding: 0.3125rem;
-  }
-  
-  h1,
-  h2 {
-    font-size: 1.5rem;
-    margin: 0.625rem 0 0.625rem;
-    text-align: center;
-  }
-  
-  .intro-text {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    padding-bottom: 2.75rem;
-  }
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Cardo", serif;
+  color: #333;
+}
 
-  .container {
-    padding: 1rem;
-    position: relative;
-    width: 50%;
-    height: 100vh;
-    margin: auto;
-  }
+body {
+  background-color: #fff;
+  padding: 0.3125rem;
+}
 
-  /*.container {
-    position: relative;
-    width: 90%;
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  */
+h1,
+h2 {
+  font-size: 1.5rem;
+  margin: 0.625rem 0 0.625rem;
+  text-align: center;
+}
 
-  /* .container > * {
-     width: 100%;
-   }
-   */
+.intro-text {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding-bottom: 2.75rem;
+}
 
-   /* flex box and heading */
+/* flex box and heading */
+
+.container {
+  padding: 1rem;
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+}
+
 .flex-row {
   display: flex;
 }
@@ -99,20 +84,14 @@ header {
 
 .btn:hover {
   cursor: pointer;
-  height: 2rem;
+  height: 2.5rem;
 }
-
-/*
-.btn[disabled]:hover {
-  cursor: not-allowed;
-}
-*/
 
 #highscores-btn {
-  background: linear-gradient(180deg, rgb(0,255,255), rgb(15, 82, 186));
+  background: linear-gradient(180deg, rgb(0, 255, 255), rgb(15, 82, 186));
 }
 
-/*Forms*/
+/* Form */
 
 form {
   width: 100%;
@@ -125,7 +104,7 @@ input {
   width: 13rem;
   margin-bottom: 1.5rem;
   padding: 1rem;
-  background: linear-gradient(180deg, rgb(0,255,255), rgb(15, 82, 186));
+  background: linear-gradient(180deg, rgb(0, 255, 255), rgb(15, 82, 186));
   outline: none;
   color: #fff;
   text-align: center;
@@ -135,5 +114,15 @@ input {
 input::placeholder {
   color: #fff;
   font-size: 1rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .container {
+    padding: 1rem;
+    position: relative;
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+  }
 }
 
