@@ -76,3 +76,14 @@
   border-radius: 50px;
 }
 
+/* media query */
+
+@media only screen and (max-width: 360px) {
+  .choice-text {
+    padding: 1rem 0;
+  }
+
+  .choice-prefix {
+    padding: 1rem;
+  }
+}

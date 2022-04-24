@@ -70,6 +70,7 @@ header {
 }
 
 /* buttons stylings */
+
 .btn {
   font-size: 1.25rem;
   padding: 1rem 0;
@@ -116,13 +117,23 @@ input::placeholder {
   font-size: 1rem;
 }
 
-@media only screen and (min-width: 900px) {
+/* media queries */
+@media only screen and (max-width: 650px) {
   .container {
     padding: 1rem;
     position: relative;
-    width: 60%;
+    width: 85%;
     height: 100vh;
     margin: auto;
   }
 }
 
+@media only screen and (max-width: 360px) {
+  .container {
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+}
