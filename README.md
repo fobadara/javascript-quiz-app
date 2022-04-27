@@ -18,7 +18,7 @@ The javaScript quiz app was created to test users' knowledge of JavaScript with 
 # EXISTING FEATURES
 ## The Landing Page
 * Featured on the home page is the title, JavaScript Quiz Test and some brief description to familiarise the user with the game.  
-* Beneath this are the links to start the quiz and to get the high scores. 
+* Beneath this are the links to start the quiz and to get high scores. 
 ![Landing Page](assets/images/landing-page.png)
 
 ## Start the Quiz
@@ -28,7 +28,9 @@ The javaScript quiz app was created to test users' knowledge of JavaScript with 
 * Next is the question displayed with four options to choose from. 
 * The user is directed to the next question after choosing an answer. 
 
-![Easy Game](assets/images/easy-game.png)
+![Start Quiz](assets/images/start-quiz-one.png)
+![Start Quiz](assets/images/start-quiz-two.png)
+
 
 ## The End Page
 * The user is directed to an end page after completing the quiz. The user has to input a username to save and submit the game. 
@@ -42,7 +44,7 @@ The javaScript quiz app was created to test users' knowledge of JavaScript with 
 
 # DESIGN
 ## Color Scheme
-I wanted a simple and basic colour scheme, using a white background for all pages, a gold and blue shade for the navigations and green colour for the progress bar. 
+I wanted a simple and basic colour scheme, using a white background for all pages, gold and blue shade for the navigations and green colour for the progress bar. 
 ## Typography
 The "Cardo" font used for the site was imported from [Google Fonts](https://fonts.google.com/).
 
@@ -70,7 +72,7 @@ I ran the game live through Chrome Lighthouse and received the following result:
 # SOLVED BUGS
 * On the JSHint Validator, there was an error message about the use of esversion:6. This was fixed by adding /*jshint esversion: 6 */ to the code. 
 * There was also another JS error on changing ['number'] to a dot notation, which was fixed. 
-* Users were able to save their score without including a name, making the save function pointless.The submit function was disabled until text had been entered into the name bar.
+* Users were able to save their score without including a name, making the save function pointless. The submit function was disabled until text had been entered into the name bar.
 
 # DEPLOYMENT
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -84,4 +86,4 @@ Most of the quiz questions were taken from the [W3 Schools Website](https://www.
 
 # ACKNOWLEDGEMENTS
   * The JavaScript code was written using [James Q Quick](https://www.youtube.com/c/JamesQQuick/featured) tutorials. 
-  * I would like to thank [AbdulFattah Badara](https://github.com/fobadara) and for his support during this project. 
+  * I would like to thank [AbdulFattah Badara](https://github.com/fobadara) for his support during this project. 
