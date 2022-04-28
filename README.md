@@ -1,5 +1,5 @@
 # JAVASCRIPT QUIZ APP
-The javaScript quiz app was created to test users' knowledge of JavaScript with no time limit. There are 10 questions and users will get 10 points for each correct answer.  At the end of the quiz, the total score will be displayed. The maximum score is 100 points. The user has to input a username for the score to be saved. On the end page, a leader board displays the highest scores.                                   
+The javascript quiz app was created to test users' knowledge of JavaScript with no time limit. There are 10 questions and users will get 10 points for each correct answer.  At the end of the quiz, the total score will be displayed. The maximum score is 100 points. The user has to input a username for the score to be saved. On the end page, a leader board displays the highest scores.                                   
 
 # FINAL DESIGN
 ![Final design](assets/images/final-design.png)

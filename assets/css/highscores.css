@@ -1,4 +1,4 @@
-/* high score display*/
+/* high score display */
 
 #highScoresList {
     list-style: none;
@@ -17,3 +17,4 @@
 #finalScore {
     margin-top: 5rem;
 }
+
