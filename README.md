@@ -5,9 +5,10 @@ The javascript quiz app was created to test users' knowledge of JavaScript with 
 ![Final design](assets/images/final-design.png)
 
 # WIREFRAME
-* This was the initial idea sketched on a paper. Changes were made during the process of creating the project. 
-![Wireframe1](assets/images/wireframe-one.png)
-![Wireframe2](assets/images/wireframe-two.png)
+![Wireframe 1](assets/images/wireframe-one.png)
+![Wireframe 2](assets/images/wireframe-two.png)
+![Wireframe 3](assets/images/wireframe-three.png)
+![Wireframe 4](assets/images/wireframe-four.png)
 
 # USER EXPERIENCE(UX) / SITE GOALS
 * The game was created using my knowledge of HTML, CSS and JAVASCRIPT.
