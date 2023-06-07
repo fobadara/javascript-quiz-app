@@ -1,6 +1,8 @@
 # JAVASCRIPT QUIZ APP
 The javascript quiz app was created to test users' knowledge of JavaScript with no time limit. There are 10 questions and users will get 10 points for each correct answer.  At the end of the quiz, the total score will be displayed. The maximum score is 100 points. The user has to input a username for the score to be saved. On the end page, a leader board displays the highest scores.                                   
 
+[The live link can be found here.](https://oyindamolabadara.github.io/javascript-quiz-test/) 
+
 # FINAL DESIGN
 ![Final design](assets/images/final-design.png)
 
@@ -80,7 +82,6 @@ I ran the game live through Chrome Lighthouse and received the following result:
   * In the GitHub repository, navigate to the Settings tab.
   * From the source section drop-down menu, select the Master Branch.
   * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-[The live link can be found here.](https://oyindamolabadara.github.io/javascript-quiz-test/) 
 
 # CREDITS
 Most of the quiz questions were taken from the [W3 Schools Website](https://www.w3schools.com/js/js_quiz.asp) with some adjustments. 
